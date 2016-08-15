@@ -1,4 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
 {% load render_bundle from webpack_loader %}
 <div id="container">
-    {% render_bundle 'main' %}
+    <!-- {% render_bundle 'main' %} -->
 </div>
+{% endblock content %}
+
